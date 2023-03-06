@@ -7,12 +7,43 @@ function getComputerChoice() {
     } else {
         computerChoice = "scissor";
     }
-    console.log(computerChoice);
+    return(computerChoice);
 }
-
-const playerSelection = 'rock';
-const computerSelection = getComputerChoice(); 
 
 function playRound(playerSelection, computerSelection){
+    if(playerSelection === computerSelection){
+        return "The result is a tie!";
+    }
 
+    if(playerSelection === "rock"){
+        if(computerSelection === "scissor"){
+            return "You win!";
+        } else if (computerSelection === "paper"){
+            return "You lose!"; 
+        }
+    }
+
+    if(playerSelection === "scissor"){
+        if(computerSelection === "rock"){
+            return "You win!";
+        } else if (computerSelection === "paper"){
+            return "You lose!";
+        }
+    }
+
+    if(playerSelection === "paper"){
+        if(computerSelection === "rock"){
+            return "You win!";
+        } else if (computerSelection === "scissor"){
+            return "You lose!";
+        }
+    }
 }
+
+const playerSelection = "rock";
+const computerSelection = getComputerChoice(); 
+
+console.log("Your Choice: " + playerSelection);
+console.log("Computer Choice: " + computerSelection);
+
+console.log(playRound(playerSelection, computerSelection));
