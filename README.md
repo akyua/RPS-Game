@@ -1,11 +1,11 @@
-<h1 align="center"> RPS </h1>
+<h1 align="center"> Rock Paper Scissor </h1>
 
-<p align="center"> The Project is a web page, where i make my portfolio with my projects, about me, skills, etc. </p>
+<p align="center"> The Project is a web game, whose the purpose is create the game Rock Paper Scissor with javascript and for me test my skills too. </p>
 
 <br>
 
 <h2 align="center"> Progress about the Project </h2>
-<p align="center"> 🚧 First Version Development 🚧 </p>
+<p align="center"> ✅ First Version Complete ✅ </p>
 
 <br>
 
@@ -27,6 +27,7 @@
 
 <div align="center">
 
-Not avaible
+![rps](https://user-images.githubusercontent.com/75745796/230202291-a6dfcc5a-7c34-4699-bf19-969b55e0cda6.png)
+![rps2](https://user-images.githubusercontent.com/75745796/230202299-79c2d9de-a29f-430e-be79-8cb1ebb30309.png)
 
 </div>
