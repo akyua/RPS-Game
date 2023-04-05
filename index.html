@@ -13,31 +13,31 @@
         <div class="main-container">
             <div class="score">
                 <h2>Computer: 
-                    <span id="compute-score">0</span>
+                    <span id="computer-score">0</span>
                 </h2>
                 <h2>You: 
                     <span id="user-score">0</span>
                 </h2>
             </div>
             <div class="buttons">
-                <button onclick="checker('rock')">
+                <button onclick="choice('Rock')">
                     <i class="fa-regular fa-hand-back-fist"></i>
                 </button>
-                <button onclick="checker('paper')">
+                <button onclick="choice('Paper')">
                     <i class="fa-regular fa-hand"></i>
                 </button>
-                <button onclick="checker('scissor')">
+                <button onclick="choice('Scissor')">
                     <i class="fa-regular fa-hand-scissors"></i>
                 </button>
             </div>
             <div class="details">
-                <p class="user_choice">sa</p>
-                <p class="computer_choice">tes</p>
-                <p class="result">te</p>
+                <p id="user_choice">Choice your button</p>
+                <p id="computer_choice"></p>
+                <p id="result"></p>
             </div>
 
         </div>
     </main>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
