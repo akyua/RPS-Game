@@ -4,6 +4,11 @@
 
 <br>
 
+<h2 align="center"> Progress about the Project </h2>
+<p align="center"> 🚧 First Version Development 🚧 </p>
+
+<br>
+
 <h2 align="center"> See website on live </h2>
 <p align="center"> https://rps-akyua.vercel.app </p>
 
