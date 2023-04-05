@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    
+    <main>
+        <div class="main-container">
+            <div class="score">
+                <h2>Computer: 
+                    <span id="compute-score">0</span>
+                </h2>
+                <h2>You: 
+                    <span id="user-score">0</span>
+                </h2>
+            </div>
+            <div class="buttons">
+                <button onclick="checker('rock')">
+                    <i class="fa-regular fa-hand-back-fist"></i>
+                </button>
+                <button onclick="checker('paper')">
+                    <i class="fa-regular fa-hand"></i>
+                </button>
+                <button onclick="checker('scissor')">
+                    <i class="fa-regular fa-hand-scissors"></i>
+                </button>
+            </div>
+            <div class="details">
+                <p class="user_choice">sa</p>
+                <p class="computer_choice">tes</p>
+                <p class="result">te</p>
+            </div>
+
+        </div>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>

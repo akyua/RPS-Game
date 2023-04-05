@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(135deg, rgb(15, 30, 34), rgb(158, 34, 34));
+  height: 100vh;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body main .main-container {
+  background-color: rgba(56, 63, 63, 0.247);
+  height: 500px;
+  width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+body main .main-container .score {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin: 20px 20px 0 0;
+}
+body main .main-container .score h2 {
+  color: white;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+body main .main-container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 75px auto;
+}
+body main .main-container .buttons button {
+  background-color: rgba(255, 0, 0, 0.527);
+  color: black;
+  font-size: 50px;
+  border: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+body main .main-container .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+body main .main-container .details p {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

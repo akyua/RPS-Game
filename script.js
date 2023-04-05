@@ -47,3 +47,9 @@ console.log("Your Choice: " + playerSelection);
 console.log("Computer Choice: " + computerSelection);
 
 console.log(playRound(playerSelection, computerSelection));
+
+function game(playRound){
+    for(let i = 0; i < 5; i++){
+        
+    }
+}

@@ -13,6 +13,7 @@
 
 <p align="center"> HTML </p>
 <p align="center"> CSS </p>
+<p align="center"> SASS / SCSS </p>
 <p align="center"> JavaScript </p>
 
 <br>
